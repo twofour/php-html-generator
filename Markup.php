@@ -97,7 +97,7 @@ class Markup implements ArrayAccess
     /**
      * Create a new Markup
      * @param string $tag
-     * @return Markup instance
+     * @return static instance
      */
     public static function createElement($tag = '')
     {
